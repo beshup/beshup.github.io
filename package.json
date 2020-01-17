@@ -2,7 +2,7 @@
   "name": "eewebsitereact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://beshup.github.io/deploy-ee-gh",
+  "homepage": "https://beshup.github.com/deploy-ee-gh",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

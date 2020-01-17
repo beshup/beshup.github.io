@@ -85,7 +85,7 @@ function App() {
  ]*/
 
   return (
-    <HashRouter>
+    <HashRouter basename ="/">
     <div className="App">
        
   <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top py-3" id="mainNav">
