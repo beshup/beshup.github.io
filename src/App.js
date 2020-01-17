@@ -44,7 +44,7 @@ import talha from './images/talha.jpg'
 import wayne from './images/wayne.jpg'
 import jun from './images/jun.jpg'
 import Navbar from './components/navbar'
-import {BrowserRouter, Route} from 'react-router-dom'
+import {HashRouter, Route} from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
 
@@ -85,7 +85,7 @@ function App() {
  ]*/
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
        
   <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top py-3" id="mainNav">
@@ -290,7 +290,7 @@ function App() {
       <div class="m-2"><a class="btn btn-success p-2" href="https://www.google.com/search?ei=8uYhXq-KBZartQaW6Y6gDg&q=edmonds+community+centre&oq=edmonds+community+centre&gs_l=psy-ab.3..0l10.2598.6601..6658...1.2..0.86.776.10......0....1..gws-wiz.......0i71j0i22i30j33i21j33i160j0i22i10i30.aZdunEHMk1o&ved=0ahUKEwivy83xjIvnAhWWVc0KHZa0A-QQ4dUDCAs&uact=5">Edmonds Community Centre</a></div>
       <div class="m-2"><a class="btn btn-success p-2" href="https://www.google.com/search?q=byrne+creek&oq=byrne+creek&aqs=chrome..69i57j0l7.2247j0j9&sourceid=chrome&ie=UTF-8">Byrne Creek Community School</a></div>   
       </div>
-      </div>
+      </div> 
     </div>
   </div>
   </div>
@@ -454,7 +454,7 @@ function App() {
     </div>
   </footer>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
